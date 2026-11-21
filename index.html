@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>My Portfolio </title>
+    </head>
+    <body>
+        <header>
+            <img src="images/profile.jpeg" alt="Portrait of Summaiya Shoaib">
+            <div>
+                <h1>Summaiya Shoaib</h1>
+                <p>Software Engineering Student</p>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skill">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id="about">About Me</h2>
+                <p>My name is Summaiya Shoaib, and I am a Software Engineering student with a strong interest in technology and web development. I enjoy learning new skills, exploring different technologies, and developing creative solutions to problems. I have basic knowledge of programming languages such as C++ and web technologies including HTML, CSS, JavaScript, and PHP. I am currently improving my technical skills through practical projects and my Full Stack Web Development internship at Tech SG Studio. I consider myself a dedicated, curious, and hardworking learner who believes in continuous growth. My goal is to become a skilled software developer and create useful, user-friendly, and innovative digital solutions.</p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <table>
+                    <caption>Educational Background</caption>
+                    <thead>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Institute</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BS Software Engineering</td>
+                            <td>Virtual University Of Pakistan</td>
+                            <td data-status="In-Progress">In-Progress</td>
+                        </tr>
+                        <tr>
+                            <td>Intermediate (ICS)</td>
+                            <td>Pechs College</td>
+                            <td data-status="Completed">Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Matriculation</td>
+                            <td>CP Berar School</td>
+                            <td data-status="Completed">Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="skill">
+                <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                    </ul>
+            </section>
+            <section id="interest">
+                <h2>My Interests</h2>
+                <ol>
+                    <li>Web Development and Website Designing</li>
+                    <li>Learning New Technologies</li>
+                    <li>Software Development</li>
+                    <li>Programming and Problem Solving</li>
+                </ol>
+            </section>
+            <section id="projects">
+                <h2>Featured Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>Bite & Bliss</h3>
+                        <p>A bakery and homemade food website</p>
+                        <a href="https://bite-nd-blisss.netlify.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAacShc4XqOv0CyrLohwIUCU03HlUO5q41btCALziJkUYoGqFQ5DYf64CGzXCGw_aem__v7Y_fuvwHfTW3tx9h8x5A">View Project</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Vavdi & CO.</h3>
+                        <p>A business website</p>
+                        <a href="https://vavdi-and-co.netlify.app/">View Project</a>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-form">
+                    <form action="/submit" method="POST">
+                        <!-- Text Input -->
+                            <label for="username">Full Name:</label>
+                            <input type="text" id="username" name="username" required placeholder="e.g John Doe">
+
+                        <!-- Email Input -->
+                            <label for="user-email">Email Address:</label>
+                            <input type="email" id="user-email" name="email" required  placeholder="name@example.com">
+
+                        <!-- Message Field -->
+                            <label for="msg">Message:</label>
+                            <textarea id ="msg" name="msg" rows="4"></textarea>
+
+                        <!-- Submit Button -->
+                        <button type="submit">Submit</button>
+                    </form>
+                    <h3>Connect With Me!</h3>
+                    <a href="https://github.com/SummaiyaShoaib123">Github</a>
+                    <a href="https://www.linkedin.com/in/summaiya-shoaib-ba789928b">LinkedIn</a>
+                    <a href="mailto:summaiyashoaibahmed@gmail.com">Email</a>
+                </div>
+            </section>
+        
+        </main>
+        <footer>
+            <h3>Summaiya Shoaib</h3>
+            <p>Software Engineering Student</p>
+
+            <hr>
+
+            <p>&copy; 2026 Summaiya Shoaib. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
